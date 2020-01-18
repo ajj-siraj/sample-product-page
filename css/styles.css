@@ -1,14 +1,33 @@
 .jumbotron{
     /* Image by Lorri Lang from Pixabay  */
-    background-image:url("../img/guitar-background-jumbotron.jpg");
+    /* background-image:url("../img/guitar-background-jumbotron.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
     padding:20%;
     color:#ddd;
+
 }
 
+.background-animation{
+    animation-name:background-fade;
+    animation-duration:5s;
+    animation-timing-function:ease;
+    animation-direction:forwards;
+    animation-iteration-count: infinite;
 
+}
+@keyframes background-fade{
+    0%{
+        opacity:0.25;
+    }
+    25%{
+        opacity:0.75;
+    }
+    100%{
+        opacity:0.75;
+    }
+}
 
 /* Image by Ryan McGuire from Pixabay  */
 /* Image by William Iven from Pixabay  */
