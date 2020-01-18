@@ -2,6 +2,9 @@ html{
     scroll-behavior:smooth;
 }
 
+a:hover{
+    text-transform:none;
+}
 /* Bootstrap related styles */
 .btn:focus,
 .btn:active {
@@ -12,19 +15,19 @@ html{
     border:none;
 }
 
-.btn-primary{
-    background-color:#ddd;
+.btn-success.custom-btn-success{
+    background-color:#ffcb21;
 }
 
-.btn-primary:hover{
-    background-color:#a09e9e;
+.btn-success.custom-btn-success:hover{
+    background-color:#d3a91e;
 }
 
-.btn-primary:active{
-    background-color:#a09e9e;
+.btn-success.custom-btn-success:active{
+    background-color:#c29b1c;
 }
-.btn-primary:focus{
-    background-color:#a09e9e;
+.btn-success.custom-btn-success:active:focus{
+    background-color:#a8881c;
 }
 
 .jumbotron{
@@ -42,7 +45,7 @@ html{
 
 /* Custom styles */
 .product{
-    height:400px;
+    height:500px;
     width:200px;
     border: 1px solid #ddd;
     margin:1%;
@@ -54,9 +57,14 @@ html{
 }
 
 .description{
-    font-family:Helvetica;
+    font-family:"Candara";
 
 }
+
+.product-title{
+    font-family:"Century Gothic";
+}
+
 /* keyframes and animations */
 .background-animation{
     animation-name:background-fade;

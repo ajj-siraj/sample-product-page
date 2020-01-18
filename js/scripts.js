@@ -1,9 +1,9 @@
 $(document).ready(function () {
     var imgID=0;
-    var imageUrls = ["../img/guitar-background-jumbotron.jpg",
-        "../img/guitar-background-jumbotron-2.jpg",
-        "../img/guitar-background-jumbotron-3.jpg",
-        "../img/guitar-background-jumbotron-4.jpg"
+    var imageUrls = ["./img/guitar-background-jumbotron.jpg",
+        "./img/guitar-background-jumbotron-2.jpg",
+        "./img/guitar-background-jumbotron-3.jpg",
+        "./img/guitar-background-jumbotron-4.jpg"
     ];
     window.setInterval(function(){
         $('.jumbotron').removeClass('background-animation');
