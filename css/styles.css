@@ -1,3 +1,4 @@
+/* Bootstrap related styles */
 .jumbotron{
     /* Image by Lorri Lang from Pixabay  */
     /* background-image:url("../img/guitar-background-jumbotron.jpg"); */
@@ -9,6 +10,24 @@
     text-shadow: 1px 1px 2px black; 
 }
 
+/* Custom styles */
+.product{
+    height:400px;
+    width:200px;
+    border: 1px solid #ddd;
+    margin:1%;
+}
+
+.product img{
+    padding:5%;
+    height:200px;
+}
+
+.description{
+    font-family:Helvetica;
+
+}
+/* keyframes and animations */
 .background-animation{
     animation-name:background-fade;
     animation-duration:5s;
