@@ -1,4 +1,32 @@
+html{
+    scroll-behavior:smooth;
+}
+
 /* Bootstrap related styles */
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn{
+    border:none;
+}
+
+.btn-primary{
+    background-color:#ddd;
+}
+
+.btn-primary:hover{
+    background-color:#a09e9e;
+}
+
+.btn-primary:active{
+    background-color:#a09e9e;
+}
+.btn-primary:focus{
+    background-color:#a09e9e;
+}
+
 .jumbotron{
     /* Image by Lorri Lang from Pixabay  */
     /* background-image:url("../img/guitar-background-jumbotron.jpg"); */
@@ -7,8 +35,10 @@
     background-size:cover;
     padding:20%;
     color:#ddd;
-    text-shadow: 1px 1px 2px black; 
+    text-shadow: 1px 1px 2px #000; 
 }
+
+
 
 /* Custom styles */
 .product{
