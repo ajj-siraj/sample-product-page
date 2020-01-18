@@ -1,0 +1,15 @@
+.jumbotron{
+    /* Image by Lorri Lang from Pixabay  */
+    background-image:url("../img/guitar-background-jumbotron.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:20%;
+    color:#ddd;
+}
+
+
+
+/* Image by Ryan McGuire from Pixabay  */
+/* Image by William Iven from Pixabay  */
+/* Image by Free-Photos from Pixabay  */
