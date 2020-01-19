@@ -65,6 +65,9 @@ a:hover{
     font-family:"Century Gothic";
 }
 
+.heading-2{
+    padding:5%;
+}
 /* keyframes and animations */
 .background-animation{
     animation-name:background-fade;
