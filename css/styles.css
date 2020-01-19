@@ -41,11 +41,19 @@ a:hover{
     text-shadow: 1px 1px 2px #000; 
 }
 
+/* Font Awesome icons styles */
+#whyus-section .fa{
+    color:#ffcf32;
+    font-size:3.5em;
+}
 
-
+#contact-section .fa-phone{
+    font-size:1.25em;
+    color:#ffcf32;
+}
 /* Custom styles */
 .product{
-    height:500px;
+    height:550px;
     width:200px;
     border: 1px solid #ddd;
     margin:1%;
@@ -61,12 +69,28 @@ a:hover{
 
 }
 
+.description-2{
+    font-size:1.5em;
+}
 .product-title{
     font-family:"Century Gothic";
 }
 
 .heading-2{
     padding:5%;
+}
+
+.custom-row-styling{
+    padding:2%;
+}
+
+#contact-section{
+    margin-top:200px;
+}
+
+#footer-section{
+    padding:7%;
+    background-color:#ddd;
 }
 /* keyframes and animations */
 .background-animation{
