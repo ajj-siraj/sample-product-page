@@ -1,115 +1,163 @@
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-a:hover{
-    text-transform:none;
+a:hover {
+    text-transform: none;
 }
+
 /* Bootstrap related styles */
 .btn:focus,
 .btn:active {
     outline: none !important;
     box-shadow: none !important;
 }
-.btn{
-    border:none;
+
+.btn {
+    border: none;
 }
 
-.btn-success.custom-btn-success{
-    background-color:#ffcb21;
+.btn-success.custom-btn-success {
+    background-color: #ffcb21;
 }
 
-.btn-success.custom-btn-success:hover{
-    background-color:#d3a91e;
+.btn-success.custom-btn-success:hover {
+    background-color: #d3a91e;
 }
 
-.btn-success.custom-btn-success:active{
-    background-color:#c29b1c;
-}
-.btn-success.custom-btn-success:active:focus{
-    background-color:#a8881c;
+.btn-success.custom-btn-success:active {
+    background-color: #c29b1c;
 }
 
-.jumbotron{
+.btn-success.custom-btn-success:active:focus {
+    background-color: #a8881c;
+}
+
+.jumbotron {
     /* Image by Lorri Lang from Pixabay  */
     /* background-image:url("../img/guitar-background-jumbotron.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:cover;
-    padding:20%;
-    color:#ddd;
-    text-shadow: 1px 1px 2px #000; 
+    background-size: cover;
+    padding: 20%;
+    color: #ddd;
+    text-shadow: 1px 1px 2px #000;
 }
 
+.modal img {
+    height: 80vh;
+    margin: 0 auto;
+    padding: 0;
+    display:block;
+}
+
+.modal-lg {
+    max-width: 90%;
+}
+
+.modal-specs-list{
+    margin-right:20px;
+}
+/* .fullscreen-modal .modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .fullscreen-modal .modal-dialog {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .fullscreen-modal .modal-dialog {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .fullscreen-modal .modal-dialog {
+       width: 1170px;
+    }
+  } */
 /* Font Awesome icons styles */
-#whyus-section .fa{
-    color:#ffcf32;
-    font-size:3.5em;
+#whyus-section .fa {
+    color: #ffcf32;
+    font-size: 3.5em;
 }
 
-#contact-section .fa-phone{
-    font-size:1.25em;
-    color:#ffcf32;
+#contact-section .fa-phone {
+    font-size: 1.25em;
+    color: #ffcf32;
 }
+
 /* Custom styles */
-.product{
-    height:550px;
-    width:200px;
+.product {
+    height: 550px;
+    width: 200px;
     border: 1px solid #ddd;
-    margin:1%;
+    margin: 1%;
 }
 
-.product img{
-    padding:5%;
-    height:200px;
+.product img {
+    padding: 5%;
+    height: 200px;
 }
 
-.description{
-    font-family:"Candara";
+.description {
+    font-family: "Candara";
 
 }
 
-.description-2{
-    font-size:1.5em;
-}
-.product-title{
-    font-family:"Century Gothic";
+.description-2 {
+    font-size: 1.5em;
 }
 
-.heading-2{
-    padding:5%;
+.product-title {
+    font-family: "Century Gothic";
 }
 
-.custom-row-styling{
-    padding:2%;
+.heading-2 {
+    padding: 5%;
 }
 
-#contact-section{
-    margin-top:200px;
+.custom-row-styling {
+    padding: 2%;
 }
 
-#footer-section{
-    padding:7%;
-    background-color:#ddd;
+#contact-section {
+    margin-top: 200px;
 }
+
+#footer-section {
+    padding: 7%;
+    background-color: #ddd;
+}
+
+#modal-img-item {
+    background-color: #ddd;
+}
+
 /* keyframes and animations */
-.background-animation{
-    animation-name:background-fade;
-    animation-duration:5s;
-    animation-timing-function:ease;
-    animation-direction:forwards;
+.background-animation {
+    animation-name: background-fade;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-direction: forwards;
     animation-iteration-count: infinite;
 
 }
-@keyframes background-fade{
-    0%{
-        opacity:0.25;
+
+@keyframes background-fade {
+    0% {
+        opacity: 0.25;
     }
-    25%{
-        opacity:0.75;
+
+    25% {
+        opacity: 0.75;
     }
-    100%{
-        opacity:0.75;
+
+    100% {
+        opacity: 0.75;
     }
 }
 
