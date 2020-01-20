@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-size: 1rem;
 }
 
 a:hover {
@@ -48,54 +49,40 @@ a:hover {
     height: 80vh;
     margin: 0 auto;
     padding: 0;
-    display:block;
+    display: block;
 }
 
 .modal-lg {
     max-width: 90%;
 }
 
-.modal-specs-list{
-    margin-right:20px;
+.modal-specs-list {
+    margin-right: 20px;
 }
-/* .fullscreen-modal .modal-dialog {
-    margin: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-  }
-  @media (min-width: 768px) {
-    .fullscreen-modal .modal-dialog {
-      width: 750px;
-    }
-  }
-  @media (min-width: 992px) {
-    .fullscreen-modal .modal-dialog {
-      width: 970px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .fullscreen-modal .modal-dialog {
-       width: 1170px;
-    }
-  } */
+
+
 /* Font Awesome icons styles */
 #whyus-section .fa {
     color: #ffcf32;
     font-size: 3.5em;
+    
 }
 
+#whyus-section{
+    height:100vh;
+}
 #contact-section .fa-phone {
     font-size: 1.25em;
     color: #ffcf32;
 }
 
 /* Custom styles */
-#products-section img:hover{
-    cursor:pointer;
+#products-section img:hover {
+    cursor: pointer;
 }
+
 .product {
-    height: 550px;
+    height: 600px;
     width: 200px;
     border: 1px solid #ddd;
     margin: 1%;
@@ -103,12 +90,12 @@ a:hover {
 
 .product img {
     padding: 5%;
-    height: 200px;
+    height: 20vh;
 }
 
 .description {
     font-family: "Candara";
-
+    /* font-size:24px; */
 }
 
 .description-2 {
@@ -138,6 +125,50 @@ a:hover {
 
 #modal-img-item {
     background-color: #ddd;
+}
+
+/* media queries */
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    html{
+        font-size:2rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    html{
+        font-size:2.25rem;
+    }
+    .product{
+        height:90vh;
+    }
+    .product img{
+        height:50vh;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    html{
+        font-size:1rem;
+    }
+    .product {
+        height: 600px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    html{
+        font-size:1rem;
+    }
+    .product {
+        height: 600px;
+    }
 }
 
 /* keyframes and animations */
