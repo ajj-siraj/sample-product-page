@@ -91,6 +91,9 @@ a:hover {
 }
 
 /* Custom styles */
+#products-section img:hover{
+    cursor:pointer;
+}
 .product {
     height: 550px;
     width: 200px;
