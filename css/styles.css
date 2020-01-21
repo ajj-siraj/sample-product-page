@@ -146,10 +146,10 @@ No media query since this is the default in Bootstrap */
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     html{
-        font-size:2rem;
+        font-size:1.2rem;
     }
     .product{
-        height:90vh;
+        height:100vh;
     }
     .product img{
         height:50vh;
